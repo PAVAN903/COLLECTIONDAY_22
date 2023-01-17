@@ -19,7 +19,7 @@ public class Main {
 	System.out.println("enter state name");
 	String state=sc.next();
 	System.out.println("enter zip name");
-	String zip=sc.next();
+	String zip=sc.next(); 
 	System.out.println("enter mobile number ");
 	String mob_no=sc.next();
 	System.out.println("enter mail id");
@@ -36,9 +36,6 @@ public class Main {
 		  System.out.println(contacts);
 		  addressbook.addcontacts();
 		  System.out.println(contact.get(0));
-	
-
-	
-	}
-}
+		  }
+          }
 
